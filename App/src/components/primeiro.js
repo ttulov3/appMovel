@@ -1,12 +1,6 @@
 import React from 'react';
-import { SafeAreaView,  test } from 'react-native';
+import { Text} from 'react-native';
 
-import Primeiro from "./components/Primeiro"
-
-export default function App(){
-    return(
-        <SafeAreaView>
-            <Primeiro/>
-        </SafeAreaView>
-    )
+export default function Primeiro(){
+    return<Text>Meu primeiro componente separador</Text>
 }
